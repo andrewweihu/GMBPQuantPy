@@ -1,0 +1,100 @@
+# Parameters in this file will be searched row by row
+# from top to bottom of the downloaded sec files until all
+# of them are found.
+# The values must be a regular expression.
+
+name: SEC_EDGAR_Parser_Parameters
+cik: 'central index key:[\t\s]+([0-9]+)'
+
+13F-HR:
+  form_folder: 13F-HR
+  schema: Sec13FHRSchema
+  table_keyword: informationtable
+  essentials:
+    report_date: 'conformed period of report:[\t\s]+([0-9]+)'
+    date_as_of_change: 'date as of change:[\t\s]+([0-9]+)'
+
+13F-HRA:
+  form_folder: 13F-HRA
+  schema: Sec13FHRASchema
+  table_keyword: informationtable
+  essentials:
+    report_date: 'conformed period of report:[\t\s]+([0-9]+)'
+    date_as_of_change: 'date as of change:[\t\s]+([0-9]+)'
+    amendment_num: '<amendmentno>(.*)<\/amendmentno>'
+    amendment_type: '<amendmenttype>(.*)<\/amendmenttype>'
+  
+4-NonDerivative:
+  form_folder: '4'
+  schema: Sec4NonDerivativeSchema
+  table_keyword: nonderivativetable
+  essentials:
+    report_date: 'conformed period of report:[\t\s]+([0-9]+)'
+    date_as_of_change: 'date as of change:[\t\s]+([0-9]+)'
+    symbol: '<issuertradingsymbol>(.*)<\/issuertradingsymbol>'
+
+4-Derivative:
+  form_folder: '4'
+  schema: Sec4DerivativeSchema
+  table_keyword: derivativetable
+  essentials:
+    report_date: 'conformed period of report:[\t\s]+([0-9]+)'
+    date_as_of_change: 'date as of change:[\t\s]+([0-9]+)'
+    symbol: '<issuertradingsymbol>(.*)<\/issuertradingsymbol>'
+
+4-ReportingOwner:
+  form_folder: '4'
+  schema: Sec4ReportingOwnerSchema
+  table_keyword: reportingowner
+  essentials:
+    report_date: 'conformed period of report:[\t\s]+([0-9]+)'
+    date_as_of_change: 'date as of change:[\t\s]+([0-9]+)'
+    symbol: '<issuertradingsymbol>(.*)<\/issuertradingsymbol>'
+
+3-NonDerivative:
+  form_folder: '3'
+  schema: Sec3NonDerivativeSchema
+  table_keyword: nonderivativetable
+  essentials:
+    report_date: 'conformed period of report:[\t\s]+([0-9]+)'
+    date_as_of_change: 'date as of change:[\t\s]+([0-9]+)'
+    symbol: '<issuertradingsymbol>(.*)<\/issuertradingsymbol>'
+
+3-Derivative:
+  form_folder: '3'
+  schema: Sec3DerivativeSchema
+  table_keyword: derivativetable
+  essentials:
+    report_date: 'conformed period of report:[\t\s]+([0-9]+)'
+    date_as_of_change: 'date as of change:[\t\s]+([0-9]+)'
+    symbol: '<issuertradingsymbol>(.*)<\/issuertradingsymbol>'
+
+3-ReportingOwner:
+  form_folder: '3'
+  schema: Sec3ReportingOwnerSchema
+  table_keyword: reportingowner
+  essentials:
+    report_date: 'conformed period of report:[\t\s]+([0-9]+)'
+    date_as_of_change: 'date as of change:[\t\s]+([0-9]+)'
+    symbol: '<issuertradingsymbol>(.*)<\/issuertradingsymbol>'
+
+S-3:
+  form_folder: 'S-3'
+  schema: SecS3Schema
+  essentials:
+    date_as_of_change: 'date as of change:[\t\s]+([0-9]+)'
+    company_conformed_name: 'company conformed name:[\t\s]+(.*)'
+
+S-1:
+  form_folder: 'S-1'
+  schema: SecS1Schema
+  essentials:
+    filed_as_of_date: 'filed as of date:[\t\s]+(\d+)'  # sometimes no date of change, such as https://sec.report/Document/0001683168-20-003845
+    company_conformed_name: 'company conformed name:[\t\s]+(.*)[\t\s]+'
+
+'144':
+  form_folder: '144'
+  schema: Sec144Schema
+  essentials:
+    filed_as_of_date: 'filed as of date:[\t\s]+(\d+)'
+    company_conformed_name: 'company conformed name:[\t\s]+(.*)[\t\s]+'

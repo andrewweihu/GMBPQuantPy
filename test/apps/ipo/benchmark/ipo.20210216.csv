@@ -1,0 +1,12 @@
+Symbol,Company,Exchange,Date,PriceRange,Price,Currency,Shares,Actions,IPOType
+,PT Sanghiang Perkasa TBK,Jakarta,2021-01-28,nan,,USD,,Expected,Pricings
+NA.OL,Arctic Bioscience AS,Oslo,2021-01-19,nan,31.0,NOK,2990000.0,Priced,Pricings
+NA.OL,Arctic Bioscience AS,Oslo,2021-01-19,nan,31.0,NOK,6687419.0,Priced,Pricings
+NA.OL,Arctic Bioscience AS,Oslo,2021-01-19,nan,,NOK,,Expected,Pricings
+CORD.L,Cordiant Digital,LSE,2021-01-25,1.37 - 1.37,1.0,GBP,370000000.0,Priced,Pricings
+MSACU,Medicus Sciences Acquisition Corp. Unit,Nasdaq,2021-02-16,10.00 - 10.00,,USD,,Expected,Pricings
+CFIV,CF Acquisition Corp. IV Class A common stock,Nasdaq,2021-02-16,nan,,USD,,Expected,Pricings
+CFIVW,CF Acquisition Corp. IV Warrant,Nasdaq,2021-02-16,nan,,USD,,Expected,Pricings
+,JD Logistics Inc,HKSE,2021-02-16,nan,,USD,,Amended,Filings
+NA.V,Germinate Capital Ltd,TSXV,2021-02-16,0.08 - 0.08,,,2500000.0,Filed,Filings
+,JD Logistics Inc,HKSE,2021-02-16,nan,,HKD,,Filed,Filings

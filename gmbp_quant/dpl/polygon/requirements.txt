@@ -1,0 +1,14 @@
+nose2
+validators
+tqdm
+httplib2
+ftfy
+pandas
+requests
+pyyaml
+tqdm
+pandas
+SQLAlchemy
+lxml
+beautifulsoup4
+secutils

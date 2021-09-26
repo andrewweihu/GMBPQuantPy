@@ -1,0 +1,6 @@
+id,market,name,url,tier,locale
+1,crypto,Coinbase,https://www.coinbase.com,crypto,G
+2,crypto,BITFINEX,https://www.bitfinex.com/,crypto,G
+6,crypto,Bitstamp,https://www.bitstamp.net/',crypto,G
+10,crypto,HitBTC,https://hitbtc.com/,crypto,G
+23,crypto,Kraken,https://www.kraken.com/en-us/,crypto,G

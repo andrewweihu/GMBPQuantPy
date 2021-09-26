@@ -1,0 +1,2 @@
+,0,1,2,3
+0,"b'{""page"":1,""perPage"":1,""count"":612,""status"":""OK"",""tickers"":[{""ticker"":""A"",""name"":""Agilent Technologies Inc."",""market"":""STOCKS"",""l'","b'ocale"":""US"",""type"":""CS"",""currency"":""USD"",""active"":true,""primaryExch"":""NYE"",""updated"":""2021-03-05"",""codes"":{""cik"":""0001090872"",""f'","b'igiuid"":""EQ0087231700001000"",""scfigi"":""BBG001SCTQY4"",""cfigi"":""BBG000C2V3D6"",""figi"":""BBG000C2V3D6""},""url"":""https://api.polygon.io'","b'/v2/tickers/A""}]}'"

@@ -1,0 +1,35 @@
+id,type,market,mic,name,tape,code
+0,TRF,equities,TFF,Multiple,-,
+1,exchange,equities,XASE,NYSE American (AMEX),A,AMX
+2,exchange,equities,XNAS,NASDAQ OMX BX,B,NSD
+3,TRF,equities,XCIS,National Stock Exchange,C,
+4,TRF,equities,FINR,FINRA,D,
+5,TRF,equities,CQS,Consolidated Quote System,E,
+6,TRF,equities,XISX,International Securities Exchange,I,IOE
+7,exchange,equities,EDGA,Cboe EDGA,J,XCBO
+8,exchange,equities,EDGX,Cboe EDGX,K,EDGX
+9,exchange,equities,XCHI,"Chicago Stock Exchange, Inc",M,
+10,exchange,equities,XNYS,New York Stock Exchange,N,NYE
+11,exchange,equities,ARCX,NYSE Arca,P,ARCA
+12,exchange,equities,XNGS,Nasdaq,T,NSD
+13,TRF,equities,CTS,Consolidated Tape System,S,
+14,TRF,equities,OOTC,OTC Bulletin Board,U,
+141,TRF,equities,XOTC,OTC Bulletin Board,U,
+142,TRF,equities,PSGM,OTC Bulletin Board,U,GREY
+143,TRF,equities,PINX,OTC Bulletin Board,U,OTO
+144,TRF,equities,OTCB,OTC Bulletin Board,U,OTCQB
+145,TRF,equities,OTCQ,OTC Bulletin Board,U,OTCQX
+15,exchange,equities,IEXG,IEX,V,IEXG
+16,TRF,equities,XCBO,Chicago Board Options Exchange,W,CBO
+17,exchange,equities,PHLX,Nasdaq PSX,X,
+18,exchange,equities,BATY,Cboe BYX,Y,BATS
+19,exchange,equities,BATS,Cboe BZX,Z,BATS
+33,exchange,equities,XBOS,NASDAQ BX Options/ETF,B,
+36,exchange,index,,CME S&P Complete Indices,,SPIC
+37,exchange,index,,Russell Tick Indices,,RUS
+38,exchange,index,,CSMI Indices Exchange,,MDX
+39,exchange,index,,CME S&P Base Indices,,SPIB
+40,exchange,index,,Dow Jones Indexes,,DJI
+20,banking,currencies,,Currency Banks 1,,
+44,banking,currencies,,Currency Banks 2,,
+60,banking,currencies,,Currency Banks 3,,

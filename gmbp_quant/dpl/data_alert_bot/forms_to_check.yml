@@ -1,0 +1,37 @@
+# list of the tables and criteria in the database to do data availability check
+
+BPII:
+  schema: 'bpii'
+  table: 'bpii_us_realtime_grandtotal'
+  dt_col: 'UpdateDateTime'
+  days: -1
+
+13F-HR:
+  schema: 'mktdata'
+  table: 'sec_13fhr'
+  dt_col: 'report_date'
+  days: -1
+
+13F-HRA:
+  schema: 'mktdata'
+  table: 'sec_13fhra'
+  dt_col: 'report_date'
+  days: -1
+
+3-NONDERIVATIVE:
+    schema: 'mktdata'
+    table: 'sec_3_nonderivative'
+    dt_col: 'report_date'
+    days: -1
+
+4-NONDERIVATIVE:
+    schema: 'mktdata'
+    table: 'sec_4_nonderivative'
+    dt_col: 'report_date'
+    days: -1
+
+S-3:
+    schema: 'mktdata'
+    table: 'sec_s3'
+    dt_col: 'date_as_of_change'
+    days: -1
